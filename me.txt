@@ -1,0 +1,4 @@
+total 8
+-rw-rw-rw-  1 codespace root        61 Jan 13 12:12 README.md
+drwxrwxrwx+ 3 codespace codespace 4096 Jan 13 12:44 AccessibilitySpeech
+-rw-rw-rw-  1 codespace codespace    0 Jan 13 12:59 me.txt

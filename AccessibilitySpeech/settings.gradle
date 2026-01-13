@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        // For Gradle plugins like Android Gradle Plugin and Kotlin
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    // Enforce centralized repository management
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+
+    repositories {
+        // Standard repositories for Android + Kotlin projects
+        google()
+        mavenCentral()
+    }
+}
+
+// Define your project structure
+rootProject.name = "AccessibilitySpeech"
+include(":app")
